@@ -10,8 +10,6 @@ This project aims to deploy a pre-trained **MobileNetV2** deep learning model fo
 - **Model Deployment**: TensorFlow Lite (TFLite) on Android
 - **Version Control**: Git, GitHub
 
-![Model Design-2025-03-07-050838](https://github.com/user-attachments/assets/3074899e-40bc-4c2f-a894-0cd082b131f5)
-
 ### **2.2 Hardware**
 - **Device**: Android smartphone (Samsung tested, API Level 31+)
 
@@ -20,6 +18,8 @@ This project aims to deploy a pre-trained **MobileNetV2** deep learning model fo
 - **Kotlin** (Android application development)
 
 ## **3. How to Use the Files**
+
+![Model Design-2025-03-07-050838](https://github.com/user-attachments/assets/3074899e-40bc-4c2f-a894-0cd082b131f5)
 
 ### **3.1 Python Files (Model Training & Conversion)**
 - `MobileNetV2.py`: Loads and tests MobileNetV2 in PyTorch.
