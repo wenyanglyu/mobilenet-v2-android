@@ -10,6 +10,8 @@ This project aims to deploy a pre-trained **MobileNetV2** deep learning model fo
 - **Model Deployment**: TensorFlow Lite (TFLite) on Android
 - **Version Control**: Git, GitHub
 
+![Model Design-2025-03-07-050838](https://github.com/user-attachments/assets/3074899e-40bc-4c2f-a894-0cd082b131f5)
+
 ### **2.2 Hardware**
 - **Device**: Android smartphone (Samsung tested, API Level 31+)
 
@@ -56,6 +58,8 @@ pip install -r typing_extensions_requirements.txt  # Fix conflicts
 ### **4.2 Fixing Android Forecasting Issues**
 **Issue:**
 The same image predicted **correctly in Python**, but **incorrectly in Android**.
+
+![Model Design-2025-03-07-053916](https://github.com/user-attachments/assets/75cf00e7-b4e9-4dab-94f3-c8cd004876ee)
 
 **Troubleshooting Process:**
 1. Verified that the **TFLite model outputs correctly in Python**.
